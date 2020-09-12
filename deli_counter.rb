@@ -11,7 +11,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli)
-    katz.deli.each.with_index(i) do |i|
+    if katz.deli.count == 0
+      puts "there is nobody in line"
     deli_sentence << "You are number #{i} in line."
   end
 end
