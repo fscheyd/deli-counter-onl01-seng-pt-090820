@@ -10,7 +10,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name, index)
+def take_a_number(katz_deli)
     katz.deli.each.with_index(i) do |i|
     deli_sentence << "You are number #{i} in line."
 end
