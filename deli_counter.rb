@@ -21,5 +21,6 @@ def now_serving(katz_deli)
   end
   else
     katz_deli.shift
+      puts 
   end
 end
