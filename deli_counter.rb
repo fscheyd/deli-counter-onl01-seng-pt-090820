@@ -12,5 +12,5 @@ end
 
 def take_a_number(katz_deli, name)
     katz.deli.each.with_index(1) do |i|
-    deli_sentence << "you are number #{i} in line."
+    deli_sentence << "You are number #{i} in line."
 end
