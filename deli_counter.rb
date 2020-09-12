@@ -10,9 +10,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli)
-    if katz.deli.count == 0
-      puts "there is nobody in line"
-    deli_sentence << "You are number #{i} in line."
-  end
+def take_a_number(katz_deli, name)
+  katz_deli << name
+    puts "Welcome, #{name}. You are number  in line"
 end
